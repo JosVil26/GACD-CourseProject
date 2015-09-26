@@ -1,16 +1,19 @@
 # Getting and Cleaning Data - Course Project
 
 This is the course project for the Getting and Cleaning Data Coursera course.
-The R script, `Script_Analysis.R`, does the following:
+Pre-requisites:
+Download the dataset if it does not already exist in the working directory
 
-1. Download the dataset if it does not already exist in the working directory
-2. Load the activity and feature info
-3. Loads both the training and test datasets, keeping only those columns which
-   reflect a mean or standard deviation
-4. Loads the activity and subject data for each dataset, and merges those
-   columns with the dataset
-5. Merges the two datasets
-6. Converts the `activity` and `subject` columns into factors
+The R script, `run_analysis.R`, does the following:
+1. Clean the working directory.
+2. Load the training, test and subject datasets, merges those
+   datasets in an unique dataset.
+3. Load the feature data.
+4. Filter only those columns which reflect a mean or standard deviation 
+   features in 2.
+5. Loads the activity data for the dataset.
+6. Format and clean the features names.
+6. Assign the features names as columns labels to the dataset.
 7. Creates a tidy dataset that consists of the average (mean) value of each
    variable for each subject and activity pair.
 
