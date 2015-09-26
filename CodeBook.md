@@ -1,13 +1,15 @@
 # Code Book
 
-This code book summarizes the resulting data fields in `tidy.txt`.
+This code book summarizes the resulting data fields in `Tidy_Data.txt`.
 
 ## Identifiers
 
-* `subject` - The ID of the test subject
-* `activity` - The type of activity performed when the corresponding measurements were taken
+* `Subject` - The ID of the test subject
+* `Activity` - The type of activity performed when the corresponding measurements were taken
 
 ## Measurements
+
+66 measurements
 
 * `tBodyAccMeanX`
 * `tBodyAccMeanY`
@@ -55,39 +57,26 @@ This code book summarizes the resulting data fields in `tidy.txt`.
 * `fBodyAccStdX`
 * `fBodyAccStdY`
 * `fBodyAccStdZ`
-* `fBodyAccMeanFreqX`
-* `fBodyAccMeanFreqY`
-* `fBodyAccMeanFreqZ`
 * `fBodyAccJerkMeanX`
 * `fBodyAccJerkMeanY`
 * `fBodyAccJerkMeanZ`
 * `fBodyAccJerkStdX`
 * `fBodyAccJerkStdY`
 * `fBodyAccJerkStdZ`
-* `fBodyAccJerkMeanFreqX`
-* `fBodyAccJerkMeanFreqY`
-* `fBodyAccJerkMeanFreqZ`
 * `fBodyGyroMeanX`
 * `fBodyGyroMeanY`
 * `fBodyGyroMeanZ`
 * `fBodyGyroStdX`
 * `fBodyGyroStdY`
 * `fBodyGyroStdZ`
-* `fBodyGyroMeanFreqX`
-* `fBodyGyroMeanFreqY`
-* `fBodyGyroMeanFreqZ`
 * `fBodyAccMagMean`
 * `fBodyAccMagStd`
-* `fBodyAccMagMeanFreq`
 * `fBodyBodyAccJerkMagMean`
 * `fBodyBodyAccJerkMagStd`
-* `fBodyBodyAccJerkMagMeanFreq`
 * `fBodyBodyGyroMagMean`
 * `fBodyBodyGyroMagStd`
-* `fBodyBodyGyroMagMeanFreq`
 * `fBodyBodyGyroJerkMagMean`
 * `fBodyBodyGyroJerkMagStd`
-* `fBodyBodyGyroJerkMagMeanFreq`
 
 ## Activity Labels
 
